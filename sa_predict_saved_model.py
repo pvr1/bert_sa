@@ -8,7 +8,7 @@ from run_classifier_predict_online import *
 
 FLAGS = tf.app.flags.FLAGS
 
-tf.app.flags.DEFINE_string("model_output_path", "/data/notebooks/xff/bert/output/sa_output/saved_model/", "model output path")
+tf.app.flags.DEFINE_string("model_output_path", "/opt/bert/bert_sa/bert_sa/sa_output/saved_model/", "model output path")
 tf.app.flags.DEFINE_string("version", "1", "model version")
 
 def export(): 
