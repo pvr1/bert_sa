@@ -1,6 +1,6 @@
-export BERT_BASE_DIR=/data/notebooks/xff/bert/bert-master/chinese_L-12_H-768_A-12
-export SA_DIR=/data/notebooks/xff/bert/sa
-export TRAINED_CLASSIFIER=/data/notebooks/xff/bert/output/sa_output/model.ckpt-617
+export BERT_BASE_DIR=/opt/bert/multi_cased_L-12_H-768_A-12
+export SA_DIR=/opt/bert/bert_sa/bert_sa/
+export TRAINED_CLASSIFIER=/op/bert/bert_sa/bert_sa/sa_output/model.ckpt
 
 
 /data/miniconda3/envs/tf1.11.0/bin/python run_classifier.py \
